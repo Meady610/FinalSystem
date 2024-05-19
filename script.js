@@ -30,3 +30,10 @@ window.onload = function() {
         displayProductInfo(productId);
     }
 };
+
+const addToCartButton = document.getElementById('tocart');
+if (addToCartButton) {
+    addToCartButton.addEventListener('click', function () {
+        alert('Товар добавлен в корзину!');
+    });
+}

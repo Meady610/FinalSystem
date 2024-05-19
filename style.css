@@ -40,3 +40,45 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.product-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.prod-img {
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.prod-name {
+    font-size: 75px;
+    margin: 0;
+    padding: 0;
+}
+
+.prod-desc {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.prod-price {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.cart {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+
+.product-detail {
+    font-family: "Montserrat";
+}
